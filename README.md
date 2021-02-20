@@ -6,3 +6,5 @@
   - Integrate with Azure Pipelines to enable Continuous Delivery to Azure App Service
 
 <img src="https://video.udacity-data.com/topher/2020/July/5f21ce4e_building-a-ci-cd-pipeline/building-a-ci-cd-pipeline.png">
+
+<img src="https://video.udacity-data.com/topher/2020/August/5f3447ab_cd-diagram/cd-diagram.png">
