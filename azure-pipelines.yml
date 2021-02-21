@@ -20,7 +20,7 @@ variables:
   environmentName: 'flask-sklearn'
 
   # Project root folder. Point to the folder containing manage.py file.
-  projectRoot: $(System.DefaultWorkingDirectory)/flask-sklearn
+  projectRoot: $(System.DefaultWorkingDirectory)
 
   # Python version: 3.7
   pythonVersion: '3.7'
