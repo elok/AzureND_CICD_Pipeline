@@ -25,11 +25,33 @@ We will use Azure Pipelines continuous integration and continuous delivery (CI/C
 3. The cloud shell appears at the bottom
 <img src="https://docs.microsoft.com/en-us/azure/devops/pipelines/media/python/azure-cloud-shell-interface.png?view=azure-devops">
 4. In the cloud shell, clone the repo
-'''git clone https://github.com/elok/AzureND_CICD_Pipeline'''
+  ```bash
+  git clone https://github.com/elok/AzureND_CICD_Pipeline
+  ```
+  <img src="https://github.com/elok/AzureND_CICD_Pipeline/blob/main/screenshot_azure_cloud_shell_git.png?raw=true">
 5. Go into the folder
-'''cd AzureND_CICD_Pipeline'''
-6. We will sue az webapp up to create an App Service and initially deploy the app
-'''az webapp up -n <your-appservice>'''
+  ```bash
+  cd AzureND_CICD_Pipeline
+  ```
+6. We will use az webapp up to create an App Service and initially deploy the app
+
+  ```bash
+  az webapp up -n <your-appservice>
+  ```
+  
+  > Change <your-appservice> to a name for your app service that's unique across Azure.
+  > Typically, you use a personal or company name along with an app identifier, such as 
+  > <your-name>-flaskpipelines. The app URL becomes <your-appservice>.azurewebsites.net.
+  > When the command completes, it shows JSON output in the Cloud Shell.
+
+7. When the command completes, it shows JSON output in the Cloud Shell.
+
+To see the running app, open a browser and go to http://[your-appservice].azurewebsites.net. If you see a generic page, wait a few seconds for the App Service to start, and refresh the page.
+
+## Azure Cloud Shell
+
+Passing tests that are displayed after running the `make all` command from the `Makefile`
+<img src="https://github.com/elok/AzureND_CICD_Pipeline/blob/main/screenshot_make_all.png?raw=true">
 
 <TODO:  Instructions for running the Python project.  How could a user with no context run this project without asking you for any help.  Include screenshots with explicit steps to create that work. Be sure to at least include the following screenshots:
 
