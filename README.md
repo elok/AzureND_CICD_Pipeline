@@ -64,6 +64,8 @@ We will use Azure Pipelines continuous integration and continuous delivery (CI/C
   > When the command completes, it shows JSON output in the Cloud Shell.
  
   <img src="screenshot_az_webapp_up.png">
+  
+  <img src="screenshot_app_service.png">
 
 7. When the command completes, it shows JSON output in the Cloud Shell.
 
@@ -81,6 +83,7 @@ To see the running app, open a browser and go to http://[your-appservice].azurew
 <img src="screenshot_azure_pipelines.png">
 <img src="screenshot_pipeline_details.png">
 <img src="screenshot_pipeline_deployed.png">
+<img src="screenshot_make_prediction_azure.png">
 
 [Use CI/CD to deploy a Python web app to Azure App Service on Linux](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops)
 
@@ -91,6 +94,10 @@ To see the running app, open a browser and go to http://[your-appservice].azurew
 11. Streamed log files from deployed application
 
 <img src="screenshot_web_tail_log.png">
+
+## GitHub Actions
+
+<img src="screenshot_github_actions.png">
 
 ## Enhancements
 
