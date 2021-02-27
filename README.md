@@ -63,9 +63,9 @@ We will use Azure Pipelines continuous integration and continuous delivery (CI/C
   > <your-name>-flaskpipelines. The app URL becomes <your-appservice>.azurewebsites.net.
   > When the command completes, it shows JSON output in the Cloud Shell.
  
-  <img src="screenshot_az_webapp_up.png">
+  <img src="screenshot_az_webapp_up.png" style="border: 1px solid black" width="500px">
   
-  <img src="screenshot_app_service.png">
+  <img src="screenshot_app_service.png" style="border: 1px solid black">
 
 7. When the command completes, it shows JSON output in the Cloud Shell.
 
