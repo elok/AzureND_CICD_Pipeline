@@ -63,9 +63,11 @@ We will use Azure Pipelines continuous integration and continuous delivery (CI/C
   > <your-name>-flaskpipelines. The app URL becomes <your-appservice>.azurewebsites.net.
   > When the command completes, it shows JSON output in the Cloud Shell.
  
-  <img src="screenshot_az_webapp_up.png" style="border: 1px solid black" width="500px">
+  <img src="screenshot_az_webapp_up.png" width="500px">
   
-  <img src="screenshot_app_service.png" style="border: 1px solid black">
+  <kbd>
+  <img src="screenshot_app_service.png">
+  </kbd>
 
 7. When the command completes, it shows JSON output in the Cloud Shell.
 
@@ -80,10 +82,18 @@ To see the running app, open a browser and go to http://[your-appservice].azurew
 
 9. Azure Pipelines
 
-<img src="screenshot_azure_pipelines.png">
-<img src="screenshot_pipeline_details.png">
-<img src="screenshot_pipeline_deployed.png">
-<img src="screenshot_make_prediction_azure.png">
+<kbd>
+  <img src="screenshot_azure_pipelines.png">
+</kbd>
+<kbd>
+  <img src="screenshot_pipeline_details.png">
+</kbd>
+<kbd>
+  <img src="screenshot_pipeline_deployed.png">
+</kbd>  
+<kbd>
+  <img src="screenshot_make_prediction_azure.png">
+</kbd>  
 
 [Use CI/CD to deploy a Python web app to Azure App Service on Linux](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops)
 
@@ -97,7 +107,9 @@ To see the running app, open a browser and go to http://[your-appservice].azurew
 
 ## GitHub Actions
 
-<img src="screenshot_github_actions.png">
+<kbd>
+  <img src="screenshot_github_actions.png">
+</kbd>  
 
 ## Enhancements
 
