@@ -92,6 +92,10 @@ To see the running app, open a browser and go to http://[your-appservice].azurew
 
 <img src="screenshot_web_tail_log.png">
 
+## GitHub Actions
+
+<img src="screenshot_github_actions.png">
+
 ## Enhancements
 
 - Incorporate other forms of test
