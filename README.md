@@ -78,7 +78,7 @@ To see the running app, open a browser and go to http://[your-appservice].azurew
   ```bash
   ./make_prediction_on_azure.sh
   ```
-  <img src="screenshot_prediction.png">
+  <img src="screenshot_prediction.png" width="700px">
 
 9. Azure Pipelines
 
@@ -92,7 +92,7 @@ To see the running app, open a browser and go to http://[your-appservice].azurew
   <img src="screenshot_pipeline_deployed.png">
 </kbd>  
 <kbd>
-  <img src="screenshot_make_prediction_azure.png">
+  <img src="screenshot_make_prediction_azure.png" width="700px">
 </kbd>  
 
 [Use CI/CD to deploy a Python web app to Azure App Service on Linux](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops)
