@@ -1,6 +1,6 @@
 # Building a CI/CD Pipeline.
 
-[![Python application test with Github Actions](https://github.com/elok/AzureND_CICD_Pipeline/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)](https://github.com/elok/AzureND_CICD_Pipeline/actions)
+![Python application test with Github Actions](https://github.com/elok/AzureND_CICD_Pipeline/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)
 
 # Overview
 
