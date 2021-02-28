@@ -80,8 +80,35 @@ To see the running app, open a browser and go to http://[your-appservice].azurew
   ```
   <img src="screenshot_prediction.png" width="700px">
 
-9. Azure Pipelines
+9. Azure DevOps - To deploy to Azure App Service from Azure Pipelines, you need to establish a service connection between the two services.
+    1. In a browser, go to dev.azure.com
+    2. Once you sign in, the browser displays your Azure DevOps dashboard, at the URL https://dev.azure.com/<your-organization-name>.
+    3. Select New project on the organization page. In the Create new project dialog box, enter the project name , and select Create.
+    4. From the new project page, select Project settings from the left navigation.
+    5. On the Project Settings page, select Pipelines > Service connections, then select New service connection, and then select Azure Resource Manager from the dropdown.
+    6. In the Add an Azure Resource Manager service connection dialog box:
+      - Give the connection a name. Make note of the name to use later in the pipeline.
+      - For Scope level, select Subscription.
+      - Select the subscription for your App Service from the Subscription drop-down list.
+      - Under Resource Group, select your resource group from the dropdown.
+      - Make sure the option Allow all pipelines to use this connection is selected, and then select OK.
 
+<img src="screenshot_azure_devops_service_connection.png">
+
+10. Azure Pipelines - Create a Python-specific pipeline to deploy to App Service
+    1. From your project page left navigation, select Pipelines.
+    2. Select New pipeline
+    3. On the Where is your code screen, select GitHub. You may be prompted to sign into GitHub.
+    4. On the Select a repository screen, select the repository that contains your app, such as your fork of the example app.
+    5. You may be prompted to enter your GitHub password again as a confirmation, and then GitHub prompts you to install the Azure Pipelines extension
+    6. On the Configure your pipeline screen, select Python to Linux Web App on Azure. 
+    Your new pipeline appears. When prompted, select the Azure subscription in which you created your Web App.
+
+    Select the Web App
+    Select Validate and configure
+
+    Azure Pipelines creates an azure-pipelines.yml file that defines your CI/CD pipeline as a series of stages, Jobs, and steps, where each step contains the details for different tasks and scripts. Take a look at the pipeline to see what it does. Make sure all the default inputs are appropriate for your code.
+  
 <kbd>
   <img src="screenshot_azure_pipelines.png">
 </kbd>
