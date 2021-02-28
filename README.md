@@ -1,5 +1,7 @@
 # Building a CI/CD Pipeline.
 
+[![Python application test with Github Actions](https://github.com/elok/AzureND_CICD_Pipeline/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)](https://github.com/elok/AzureND_CICD_Pipeline/actions)
+
 # Overview
 
 In this project, we learn about building out a DevOps CI/CD pipeline. We first start with a GitHub repository and use Github actions to perform an initial lint, test, and install cycles. We then use a pre-trained sklearn model built into a Flask web framework and integrate the project in GitHub with Azure Pipelines to enable Continuous Delivery to Azure App Service.
@@ -146,5 +148,3 @@ To see the running app, open a browser and go to http://[your-appservice].azurew
 ## Demo 
 
 <TODO: Add link Screencast on YouTube>
-
-[![Python application test with Github Actions](https://github.com/elok/AzureND_CICD_Pipeline/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)](https://github.com/elok/AzureND_CICD_Pipeline/actions)
