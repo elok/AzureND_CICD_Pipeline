@@ -147,4 +147,4 @@ To see the running app, open a browser and go to http://[your-appservice].azurew
 
 <TODO: Add link Screencast on YouTube>
 
-
+[![Python application test with Github Actions](https://github.com/elok/AzureND_CICD_Pipeline/workflows/{workflowName}/badge.svg)](https://github.com/elok/AzureND_CICD_Pipeline/actions)
